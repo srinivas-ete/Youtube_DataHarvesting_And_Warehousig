@@ -10,17 +10,17 @@ from datetime import datetime
 # ------------------------------------------------------------------------ Connection to Youtube API --------------------------------------------------------------------#
 api_service_name = "youtube"
 api_version = "v3"
-youtube = build(api_service_name, api_version, developerKey='AIzaSyApSbRxbvEPhEgboEX0mVcR6YLrmtvlMcA')
+youtube = build(api_service_name, api_version, developerKey='YourAPIKey')
 # ------------------------------------------------------------------------- Connection to MongoDB -----------------------------------------------------------------------#
 client = MongoClient("mongodb://localhost:27017/")
-mydb = client['Youtube_DataBase']
-collection = mydb['Youtube_Details']
+mydb = client['Youtube_DataBase'] #creating database
+collection = mydb['Youtube_Details'] # creating collection
 # ------------------------------------------------------------------------- Connection to MYSQL -------------------------------------------------------------------------#
 mysql_connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="srinivas",
-    database="Youtube"
+    password="YourPassword",
+    database="Youtube" # data base name
 )
 mysql_cursor = mysql_connection.cursor()
 
