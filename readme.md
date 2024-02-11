@@ -9,7 +9,7 @@ The application should have the following feautres:
 5. Ability to search and retrieve data from the SQL database using different search options, including joining tables to get channel details.
 
 **WORKFLOW DIAGRAM:**
-![workflow](venv/workflow.jpg)
+![workflow](workflow.jpg)
 
 **INTRODUCTION:**
 YouTube Data Harvesting and Warehousing is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable information from YouTube channels. The extracted data is then stored in a MongoDB database, subsequently migrated to a SQL data warehouse, and madeccessible for analysis and exploration within the Streamlit app.
@@ -23,11 +23,11 @@ YouTube Data Harvesting and Warehousing is a project aimed at developing a user-
 
 **INSTALLATION:**
 To run this project, you need to install the following packages:
-    pip install google-api-python-client
-    pip install pymongo
-    pip install pandas
-    pip install mysql-connector-python
-    pip install streamlit
+* pip install google-api-python-client
+* pip install pymongo
+* pip install pandas
+* pip install mysql-connector-python
+* pip install streamlit
     
 **Usage:**
 To use this project, follow these steps:
