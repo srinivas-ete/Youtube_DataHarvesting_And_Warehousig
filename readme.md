@@ -1,6 +1,7 @@
 ###### YouTube Data Harvesting and WareHousing
 **PROBLEM STATEMENT:**
-    The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
+    
+   The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
 The application should have the following feautres:
 1. Ability to input a YouTube channel ID and retrieve all the relevant data (Channel name, subscribers, total video count, playlist ID, video ID, likes, dislikes, comments of each video) using Google API.
 2. Option to store the data in a MongoDB database as a data lake.
@@ -12,6 +13,7 @@ The application should have the following feautres:
 ![workflow](workflow.jpg)
 
 **INTRODUCTION:**
+
 YouTube Data Harvesting and Warehousing is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable information from YouTube channels. The extracted data is then stored in a MongoDB database, subsequently migrated to a SQL data warehouse, and madeccessible for analysis and exploration within the Streamlit app.
 
 **KEY TECHNOLOGIES AND SKILLS:**
@@ -43,6 +45,7 @@ To use this project, follow these steps:
 4. Perform queries on the SQL data warehouse.
 
 **Retrieving data from the YouTube API**
+
 The project utilizes the Google API to retrieve comprehensive data from YouTube channels. The data includes information on channels, playlists, videos, and comments. By interacting with the Google API, we collect the data and merge it into a JSON file.
 
 **Storing data in MongoDB**
